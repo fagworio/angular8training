@@ -5,7 +5,12 @@
   </h1>
 <app-test></app-test>
 <app-button></app-button>
-
 <app-employee-list></app-employee-list>
-
 <app-employee-detail></app-employee-detail>
+
+<nav>
+  <a routerLink="/departments" routerLinkActive="active">Departments</a>
+  <a routerLink="/employees" routerLinkActive="active">Employees</a>
+</nav>
+
+<router-outlet></router-outlet>

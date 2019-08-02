@@ -10,7 +10,7 @@ import { catchError } from 'rxjs/operators'
   providedIn: 'root'
 })
 export class EmployeeService {
-  private _url: string = "/assets/data/employee.json1";
+  private _url: string = "/assets/data/employee.json";
   constructor(private http: HttpClient) { }
 
   getEmployees(): Observable<IEmployee[]> {
